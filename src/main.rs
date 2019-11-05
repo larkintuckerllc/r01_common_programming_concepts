@@ -54,17 +54,17 @@ fn main() {
     let tup = (0, 'a', 1.1); // (i32, char, f64)
     println!("The second value of tup is: {}", tup.1); // a
     let (t1, t2, t3) = tup;
-    println!("he value of t1 is: {}", t1); // 0
-    println!("he value of t2 is: {}", t2); // a
-    println!("he value of t3 is: {}", t3); // 1.1
+    println!("The value of t1 is: {}", t1); // 0
+    println!("The value of t2 is: {}", t2); // a
+    println!("The value of t3 is: {}", t3); // 1.1
 
     // ARRAY
     let arr = [0, 1, 2]; // [i32, 3]
     println!("The second value of arr is: {}", arr[1]); // 1
     let [a1, a2, a3] = arr;
-    println!("he value of a1 is: {}", a1); // 0
-    println!("he value of a2 is: {}", a2); // 0
-    println!("he value of a3 is: {}", a3); // 0
+    println!("The value of a1 is: {}", a1); // 0
+    println!("The value of a2 is: {}", a2); // 0
+    println!("The value of a3 is: {}", a3); // 0
 
     // STRING
 
