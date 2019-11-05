@@ -66,17 +66,16 @@ fn main() {
     println!("The value of a2 is: {}", a2); // 0
     println!("The value of a3 is: {}", a3); // 0
 
-    // STRING
+    // OBJECT OR REFEREENCE
+    let mut tup2 = (0, 'a', 1.1); // (i32, char, f64)
+    let tup3 = tup2;
+    tup2.0 = 1;
+    println!("The first value of tup2 is: {}", tup2.0); // 1
+    println!("The first value of tup3 is: {}", tup3.0); // 0
 
-    // ENUM
-
-    // ANY
-
-    // VOID
-
-    // NULL AND UNDEFINED
-
-    // NEVER
-    
-    // OBJECT
+    let mut arr2 = [0, 1, 2]; // [i32, 3]
+    let arr3 = arr2;
+    arr2[0] = 1;
+    println!("The first value of arr2 is: {}", arr2[0]); // 1
+    println!("The first value of arr3 is: {}", arr3[0]); // 0
 }
